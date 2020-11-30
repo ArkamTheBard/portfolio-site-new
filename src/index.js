@@ -1,11 +1,13 @@
 let resume = null;
 let aboutMe = null;
 let profilePic = null;
+let xbutton = null;
 
 function init(){
     resume = document.getElementById("resume-link");
     aboutMe = document.getElementById("about-me");
     profilePic = document.getElementById("profile-pic");
+    xbutton = document.getElementById("xbutton");
 
     originalLinkColor = resume.style.color;
 
@@ -33,6 +35,10 @@ function init(){
 
     profilePic.addEventListener("click", function(event){
         window.open("https://my.indeed.com/p/yardleyg-3f1icdg");
+    });
+
+    xbutton.addEventListener("click", function(event){
+        window.close();
     });
 
 }

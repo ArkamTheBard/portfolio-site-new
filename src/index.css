@@ -36,3 +36,15 @@ figcaption{
 #bottom-buttons{
     justify-content: flex-end;
 }
+
+#github{
+    width: 32px;
+    justify-content: baseline;
+}
+
+#copy{
+    border: 0px;
+    border-style: none;
+    text-align: left;
+    font-size: 10px;
+}

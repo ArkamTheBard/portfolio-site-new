@@ -2,10 +2,6 @@ body{
     background-color: #008080;
 }
 
-.window-body{
-    padding: 10px;
-}
-
 #main-header{
     text-align: center;
     font-weight: bold;
@@ -25,7 +21,7 @@ figcaption{
     text-align: center;
 }
 
-#profilepic{
+#profile-pic{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +35,6 @@ figcaption{
 
 #github{
     width: 32px;
-    justify-content: baseline;
 }
 
 #copy{

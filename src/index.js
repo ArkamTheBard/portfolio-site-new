@@ -3,6 +3,7 @@ let aboutMe = null;
 
 function init(){
     resume = document.getElementById("resume-link");
+    aboutMe = document.getElementById("about-me");
 
     originalLinkColor = resume.style.color;
 
@@ -12,6 +13,10 @@ function init(){
 
     resume.addEventListener("mouseleave", function(event){
         resume.style.color = originalLinkColor;
+    });
+
+    aboutMe.addEventListener("click", function(event){
+        location.href = "src/about.html";
     });
 
 }

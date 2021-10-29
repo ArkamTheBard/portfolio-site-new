@@ -38,7 +38,7 @@ function init(){
     });
 
     xbutton.addEventListener("click", function(event){
-        window.close();
+        self.close();
     });
 
 }

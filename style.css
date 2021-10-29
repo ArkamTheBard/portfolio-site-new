@@ -9,11 +9,15 @@ body{
 
 #sub-header{
     text-align: center;
-    font-size: medium;
+}
+
+#short-desc{
+    text-align: center;
+    font-size: small;
 }
 
 #main{
-    max-width: 100%;
+    max-width: 95%;
     margin: 0 auto;
 }
 

@@ -2,12 +2,14 @@ let resume = null;
 let aboutMe = null;
 let profilePic = null;
 let xbutton = null;
+let projects = null;
 
 function init(){
     resume = document.getElementById("resume-link");
     aboutMe = document.getElementById("about-me");
     profilePic = document.getElementById("profile-pic");
     xbutton = document.getElementById("xbutton");
+    projects = document.getElementById("my-projects");
 
     originalLinkColor = resume.style.color;
 
@@ -21,6 +23,10 @@ function init(){
 
     aboutMe.addEventListener("click", function(event){
         location.href = "src/about.html";
+    });
+
+    projects.addEventListener("click", function(event){
+        location.href = "https://github.com/ArkamTheBard";
     });
 
     profilePic.addEventListener("mouseover", function(event){

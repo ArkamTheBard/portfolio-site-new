@@ -20,3 +20,5 @@ function init(){
         self.close();
     });
 }
+
+window.onload = init;

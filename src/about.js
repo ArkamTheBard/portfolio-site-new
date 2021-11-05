@@ -4,7 +4,7 @@ let homeb = null;
 
 function init(){
     xbutton = document.getElementById("xbutton");
-    xbutton_sub = document.getElementById("xbutton_sub");
+    xbutton_sub = document.getElementById("xbutton-sub");
     homeb = document.getElementById("homeb");
 
 

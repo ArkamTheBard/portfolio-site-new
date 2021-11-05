@@ -9,7 +9,7 @@ function init(){
 
 
     homeb.addEventListener("click", function(event){
-        document.location.href = "/index.html";
+        document.location.href = "/portfolio-site-new/index.html";
     });
 
     xbutton.addEventListener("click", function(event) {

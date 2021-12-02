@@ -26,6 +26,10 @@ function init(){
     });
 
     projects.addEventListener("click", function(event){
+        location.href = "https://github.com/ArkamtheBard";
+    });
+
+    projects.addEventListener("click", function(event){
         location.href = "https://github.com/ArkamTheBard";
     });
 
@@ -40,7 +44,7 @@ function init(){
     });
 
     profilePic.addEventListener("click", function(event){
-        window.open("https://my.indeed.com/p/yardleyg-3f1icdg");
+        window.open("https://www.linkedin.com/in/yardley-gutierrez-43810616b/");
     });
 
     xbutton.addEventListener("click", function(event){
